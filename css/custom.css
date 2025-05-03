@@ -618,9 +618,9 @@ header.main-header .header-sticky.active{
 }
 
 .main-menu ul li.nav-item .nav-link{
-	font-size: 16px;
+	font-size: 15px;
 	font-weight: 500;
-	padding: 10px 20px;
+	padding: 10px 12px;
 	color: var(--white-color);
 	text-transform: capitalize;
 	transition: all 0.3s ease-in-out;
@@ -6434,5 +6434,29 @@ header.main-header .header-sticky.active{
 	border-radius: 10px;
   }
    */
+.company-posts  .post-item{
+ border: 2px solid ;
+ border-radius: 40px;
+}
+.company-posts .post-featured-image img{
+    border-radius: 0 !important;
+}
+.company-posts .post-item .post-item-body{
+	display: flex;
+	justify-content: space-around;
+	padding: 0px 10px;
+}
+.company-posts .post-item .post-item-content{
+	margin-bottom: 10px;
+}
+.company-posts .post-readmore-btn a{
+	position: relative;
+	font-size: 16px;
+	font-weight: 600;
+	color: var(--accent-color);
 
-  
+	transition: all 0.3s ease-in-out;
+}
+.company-posts .post-featured-image img {
+    aspect-ratio: 1 / 0.7;
+}
