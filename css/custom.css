@@ -1157,7 +1157,7 @@ header.main-header .header-sticky.active{
 .our-services{
 	position: relative;
 	padding: 100px 0 280px;
-	background: url('../images/our-service-bg.jpg') no-repeat center center;
+	background: url('../images/servcies-bg.png') no-repeat center center;
 	background-size: cover;
 }
 
@@ -1224,7 +1224,10 @@ header.main-header .header-sticky.active{
 }
 
 .service-item .icon-box img{
-	max-width: 60px;
+	max-width: 79px;
+	border-radius: 50px;
+	border: 2px solid black ;
+
 }
 
 .service-body{
@@ -1297,6 +1300,7 @@ header.main-header .header-sticky.active{
 	width: 100%;
 	display: block;
 	border-radius: 40px;
+	height: 680px;
 }
 
 .our-story-img img{
